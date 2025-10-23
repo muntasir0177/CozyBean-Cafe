@@ -1,0 +1,236 @@
+body {
+    background-color: #f8f9fa; /* Light gray/white smoke background */
+    color: #000000; /* Black text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+.navbar {
+    background-color: #ffffff !important; /* Pure white navbar */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #000000 !important;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+}
+
+.nav-link {
+    color: #000000 !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #6c757d !important;
+}
+
+/* Hero section */
+.hero-section {
+    background: linear-gradient(rgba(110, 108, 108, 0.119), rgba(0, 0, 0, 0.8)), 
+                url('/coffeeshop/assets/images/herosec.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.75rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.hero-btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #ffffff;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Section styling */
+.section-title {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Card styling */
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 25px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.card-title {
+    color: #000000;
+    font-weight: 700;
+}
+
+.card-text {
+    color: #333333;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.btn-primary:hover {
+    background-color: #333333;
+    border-color: #333333;
+    color: #ffffff;
+}
+
+.btn-outline-dark {
+    color: #000000;
+    border-color: #000000;
+}
+
+.btn-outline-dark:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Footer styling */
+footer {
+    background-color: #ffffff !important;
+    border-top: 1px solid #e9ecef;
+    margin-top: 50px;
+}
+
+/* Features section */
+.feature-box {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+/* Menu section */
+.menu-preview {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Currency styling */
+.currency-symbol {
+    font-family: sans-serif;
+}
+
+/* Product image styling */
+.product-image {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Order image styling */
+.order-image {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+/* Admin product table image */
+.table img {
+    max-height: 50px;
+    width: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+    
+    .card-img-top {
+        height: 150px;
+    }
+    
+    .navbar-brand img {
+        max-height: 30px;
+    }
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.table {
+    font-size: 0.9rem;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
